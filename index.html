@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous"/>
+    <style>
+      h1{
+        padding-left: 10px;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- Header / Menu Principal  -->
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <img src="images\pc-gamer-logo.png" style="width:40px;padding: 2px;margin: 5px 10px; ;" alt="pc-gamer-logo">
+      <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+      <span class="fs-4">PC Store</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+      <li class="nav-item"><a href="productos.html" class="nav-link">Productos</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link">Contactenos</a></li>
+    </ul>
+  </header>
+  <!-- Cerrar header  -->
+
+  <!-- Saludo -->
+  <h1>Bienvenido a PC Store &excl;  </h1>
+
+  <!-- Tabla -->
+  <div style="width: 60%; margin: 20px;">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Especificaciones</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>RTX 3090 FE</td>
+          <td>GPU</td>
+          <td>&dollar;1500 <b>USD</b> </td>
+          <td>
+            <ul>
+              <li>CUDA cores: 10,496.</li>
+              <li>Boost clock: 1695 MHz.</li>
+              <li>Memory: 24GB GDDR6X.</li>
+            </ul>
+          </td>
+
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>RTX 3080 FE</td>
+          <td>GPU</td>
+          <td>&dollar;700 <b>USD</b> </td>
+          <td>
+            <ul>
+              <li>CUDA cores: 8704.</li>
+              <li>Boost clock: 1710 MHz</li>
+              <li>Memory: 10GB GDDR6X.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>RTX 3070 FE</td>
+          <td>GPU</td>
+          <td>&dollar;600 <b>USD</b></td>
+          <td>
+            <ul>
+              <li>CUDA cores: 5888.</li>
+              <li>Boost clock: 1550 MHz.</li>
+              <li>Memory: 8GB GDDR6.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- Fin Tabla -->
+  <!-- Componente de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
